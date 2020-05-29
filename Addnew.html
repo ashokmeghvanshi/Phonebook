@@ -25,79 +25,79 @@
       <form action="insertnumber.php" method="POST">
         <p>Name</p>
         <div class="input-group mb-3">
-          <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+          <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="Name" required>
         </div>
         
         <div class="form-group">
           <label for="exampleFormControlSelect1">Date Of Birth</label>
           <div class="row">  
             <div class="col-4">
-              <select class="form-control" id="date">
-                <option selected>Date</option>
-                <option>01</option>
-                <option>02</option>
-                <option>03</option>
-                <option>04</option>
-                <option>05</option>
-                <option>06</option>
-                <option>07</option>
-                <option>08</option>
-                <option>09</option>
-                <option>10</option>
-                <option>11</option>
-                <option>12</option>
-                <option>13</option>
-                <option>14</option>
-                <option>15</option>
-                <option>16</option>
-                <option>17</option>
-                <option>18</option>
-                <option>19</option>
-                <option>20</option>
-                <option>21</option>
-                <option>22</option>
-                <option>23</option>
-                <option>24</option>
-                <option>25</option>
-                <option>26</option>
-                <option>27</option>
-                <option>28</option>
-                <option>29</option>
-                <option>30</option>
-                <option>31</option>
+              <select class="form-control" id="date" name="date" required>
+                <option selected hidden value="">Date</option>
+                <option value="01">01</option>
+                <option value="02">02</option>
+                <option value="03">03</option>
+                <option value="04">04</option>
+                <option value="05">05</option>
+                <option value="06">06</option>
+                <option value="07">07</option>
+                <option value="08">08</option>
+                <option value="09">09</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
               </select>
             </div>
             <div class="col-4">
-              <select class="form-control" id="month">
-                <option selected>Month</option>
-                <option>01</option>
-                <option>02</option>
-                <option>03</option>
-                <option>04</option>
-                <option>05</option>
-                <option>06</option>
-                <option>07</option>
-                <option>08</option>
-                <option>09</option>
-                <option>10</option>
-                <option>11</option>
-                <option>12</option>
+              <select class="form-control" id="month" name="month" required>
+                <option selected hidden value="">Month</option>
+                <option value="01">01</option>
+                <option value="02">02</option>
+                <option value="03">03</option>
+                <option value="04">04</option>
+                <option value="05">05</option>
+                <option value="06">06</option>
+                <option value="07">07</option>
+                <option value="08">08</option>
+                <option value="09">09</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
               </select>
             </div>
             <div class="col-4">
-              <select class="form-control" id="year">
-                <option selected>Year</option>
-                <option>2000</option>
-                <option>2001</option>
-                <option>2002</option>
-                <option>2003</option>
-                <option>2004</option> 
-                <option>2005</option>
-                <option>2006</option>
-                <option>2007</option>
-                <option>2008</option>
-                <option>2009</option>
-                <option>2010</option>
+              <select class="form-control" id="year" name="year" required>
+                <option selected hidden value="">Year</option>
+                <option value="2000">2000</option>
+                <option value="2001">2001</option>
+                <option value="2002">2002</option>
+                <option value="2003">2003</option>
+                <option value="2004">2004</option> 
+                <option value="2005">2005</option>
+                <option value="2006">2006</option>
+                <option value="2007">2007</option>
+                <option value="2008">2008</option>
+                <option value="2009">2009</option>
+                <option value="2010">2010</option>
               </select>
             </div>  
           </div>
@@ -106,7 +106,7 @@
         <p>Phone Number</p> 
         <div class="row">
           <div class="input-group mb-3 col-11">
-            <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+            <input type="phone" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="phone" required>
           </div>
           <p class="float-right ml-4" style="font-size:27px"><i class="fa fa-plus-circle"></i></p>
         </div>
@@ -114,34 +114,16 @@
         <p>Email</p> 
         <div class="row">
           <div class="input-group mb-3 col-11">
-            <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
+            <input type="email" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" name="email" required>
           </div>
           <p class="float-right ml-4" style="font-size:27px"><i class="fa fa-plus-circle"></i></p>
         </div>
 
         <div class="row justify-content-end mr-3 mb-3">
-          <button type="button" class="btn btn-success" data-toggle="modal" data-target="#savecontact">Save</button>
+          <button type="submit" class="btn btn-success" data-toggle="modal" data-target="#savecontact" value="submit">Save</button>
         </div>
       </form>
-
-      <div class="modal fade" id="savecontact" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalCenterTitle">Contact has been saved !</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-
-            <div class="modal-footer">
-              <button type="button" class="btn btn-light"><a href="PhoneBook.html"><i class="fa fa-arrow-left"></i>PhoneBook</a></button>
-              <button type="button" class="btn btn-info"><a href="Addnew.html" class="text-white">Add New Contact</a></button>
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-
-            </div>
-          </div>
-        </div>
+      
       </div>
 
     </div>  
