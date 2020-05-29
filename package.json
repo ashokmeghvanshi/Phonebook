@@ -1,0 +1,26 @@
+ {
+  "name": "phonebook",
+  "version": "1.0.0",
+  "description": "it is an phonebook system to store phone number ",
+  "main": "index.js",
+  
+   "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashokmeghvanshi/Phonebook.git"
+  },
+  "author": "Ashok Kumar Meghvanshi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashokmeghvanshi/Phonebook/issues"
+  },
+  "homepage": "https://github.com/ashokmeghvanshi/Phonebook#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
